@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Markazi+Text&family=Outfit:wght@200&family=Poppins:ital,wght@0,300;1,100;1,500&display=swap");
 * {
   font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -13,14 +17,124 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #0d192b;
+  font-size: 18px;
+  padding: 25px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #0d192b;
 }
 
-h3 {
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  color: #8bacda;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container {
+  background-color: #14253d;
+  border-radius: 25px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.container .card {
+  margin-bottom: 25px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.container h3 {
   color: white;
+  margin-bottom: 30px;
+}
+
+.container h3:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #2f415b;
+  margin-bottom: 20px;
+  color: #8bacda;
+  font-weight: 600;
+}
+
+ul li {
+  padding: 5px;
+  margin: 20px 0 20px 0;
+}
+
+ul li img {
+  margin-right: 10px;
+}
+
+ul li:first-child {
+  color: #00fff7;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.footer img {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 20px;
+}
+
+.footer span {
+  color: white;
+  font-weight: 600;
+}
+
+.footer span:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (min-width: 480px) {
+  .container {
+    width: 375px;
+    margin: 0 auto 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
