@@ -2,19 +2,3 @@
 
 @import 'colors';
 @import 'main';
-
-* {
-  font-family: 'Outfit', sans-serif;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: $main_BG;
-}
-
-h3 {
-  color: $white;
-}
