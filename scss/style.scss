@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Markazi+Text&family=Outfit:wght@200&family=Poppins:ital,wght@0,300;1,100;1,500&display=swap');
+
+@import 'colors';
+@import 'main';
+
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $main_BG;
+}
+
+h3 {
+  color: $white;
+}
