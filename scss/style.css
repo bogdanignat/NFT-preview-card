@@ -51,6 +51,7 @@ p {
   margin-bottom: 25px;
   border-radius: 15px;
   overflow: hidden;
+  position: relative;
 }
 
 .container h3 {
@@ -80,6 +81,15 @@ ul {
 }
 
 ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 5px;
   margin: 20px 0 20px 0;
 }
@@ -134,7 +144,7 @@ ul li:first-child {
 @media (min-width: 480px) {
   .container {
     width: 375px;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
