@@ -30,7 +30,7 @@ p {
 }
 
 .container {
-  background-color: $card_BG;
+  background: $card_BG;
   border-radius: 25px;
   padding: 25px;
   margin-bottom: 20px;
@@ -38,6 +38,8 @@ p {
     margin-bottom: 25px;
     border-radius: 15px;
     overflow: hidden;
+    cursor: pointer;
+    display: grid;
     position: relative;
   }
   h3 {
@@ -50,29 +52,28 @@ p {
   }
 }
 
-// .container {
-//   .card {
-//     div {
-//       position: relative;
-//       color: $Cyan;
-//       width: 100%;
-//       // height: calc(100% - 4px);
-//       // z-index: 999;
-//       // opacity: 0;
-//       // transition: opacity 0.3s ease-in-out;
-//       img {
-//         position: absolute;
-//         left: 50%;
-//         top: 50%;
-//         transform: translate(-50%, -50%);
-//       }
-//     }
-//     div:hover {
-//       opacity: 1;
-//       cursor: pointer;
-//     }
-//   }
-// }
+.card-over {
+  background: $Cyan;
+  width: 100%;
+  height: 100%;
+  grid-column-start: 1;
+  //make the card-hover overwrite the img card
+  position: absolute;
+  background-color: $Cyan;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  //position the icon in the middle
+  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.card-over:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
 
 ul {
   display: flex;
