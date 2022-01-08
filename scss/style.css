@@ -19,7 +19,6 @@ body {
           align-items: center;
   background-color: #0d192b;
   font-size: 18px;
-  padding: 25px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -36,8 +35,7 @@ img {
 
 p {
   color: #8bacda;
-  font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .container {
@@ -48,7 +46,7 @@ p {
 }
 
 .container .card {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   border-radius: 15px;
   overflow: hidden;
   cursor: pointer;
@@ -59,7 +57,7 @@ p {
 
 .container h3 {
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .container h3:hover {
@@ -104,7 +102,7 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-bottom: 1px solid #2f415b;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #8bacda;
   font-weight: 600;
 }
@@ -120,7 +118,7 @@ ul li {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 5px;
-  margin: 20px 0 20px 0;
+  margin: 10px 0 10px 0;
 }
 
 ul li img {

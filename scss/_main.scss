@@ -11,7 +11,6 @@ body {
   align-items: center;
   background-color: $main_BG;
   font-size: 18px;
-  padding: 25px;
   flex-direction: column;
 }
 
@@ -25,8 +24,7 @@ img {
 
 p {
   color: $Soft_blue;
-  font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .container {
@@ -35,7 +33,7 @@ p {
   padding: 25px;
   margin-bottom: 20px;
   .card {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     border-radius: 15px;
     overflow: hidden;
     cursor: pointer;
@@ -44,7 +42,7 @@ p {
   }
   h3 {
     color: $white;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
   h3:hover {
     color: $Cyan;
@@ -80,7 +78,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid $line_color;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: $Soft_blue;
   font-weight: 600;
   li {
@@ -88,7 +86,7 @@ ul {
     align-items: center;
     justify-content: center;
     padding: 5px;
-    margin: 20px 0 20px 0;
+    margin: 10px 0 10px 0;
     img {
       margin-right: 10px;
     }
